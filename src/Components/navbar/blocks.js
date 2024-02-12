@@ -37,16 +37,11 @@ export default (editor, opts = {}) => {
       `,
     category: opts.category,
     content: `<div class="navbar">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact</a>
-    </div>
-    
-    <div style="padding:20px">
-      <h2>Simple Navbar Example</h2>
-      <p>This is a simple example of a navigation bar using HTML and CSS.</p>
-    </div>
+    <a href="#" class="active">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#" class="navbar-right">Contact</a>
+  </div>
      ${style}`,
   });
 };
